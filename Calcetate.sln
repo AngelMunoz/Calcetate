@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calcetate", "Calcetate\Calcetate.fsproj", "{6B914C83-621C-4507-BF6B-7C49C2BF881D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A01A313-4B71-43DD-9153-917BACF9383A}"
+	ProjectSection(SolutionItems) = preProject
+		Calcetate\Plugin.fsx = Calcetate\Plugin.fsx
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "CalceTypes", "CalceTypes\CalceTypes.fsproj", "{7A9F8D0A-9F15-4270-BE59-6911B035AF14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B914C83-621C-4507-BF6B-7C49C2BF881D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B914C83-621C-4507-BF6B-7C49C2BF881D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B914C83-621C-4507-BF6B-7C49C2BF881D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B914C83-621C-4507-BF6B-7C49C2BF881D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A9F8D0A-9F15-4270-BE59-6911B035AF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9F8D0A-9F15-4270-BE59-6911B035AF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9F8D0A-9F15-4270-BE59-6911B035AF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9F8D0A-9F15-4270-BE59-6911B035AF14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D35F5C98-FFF9-4212-A856-9A4726FEC9D9}
+	EndGlobalSection
+EndGlobal
