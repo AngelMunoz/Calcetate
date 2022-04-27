@@ -10,6 +10,8 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="FSharp.Compiler.Service" Version="41.0.3" />
+	  <PackageReference Include="FsToolkit.ErrorHandling" Version="2.13.0" />
+	  <PackageReference Include="FsToolkit.ErrorHandling.TaskResult" Version="2.13.0" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\CalceTypes\CalceTypes.fsproj" />
